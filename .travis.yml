@@ -4,8 +4,8 @@ jdk:
 install: mvn install
 script:
 - export TZ=Asia/Almaty
-- mvn exec:java -DgiphyApiKey=$GIPHY_API_KEY -DslackWebhookUrl=$SLACK_WEBHOOK_URL
-#- mvn exec:java -DgiphyApiKey=KjidbICyyiyO9Z4kpLx510L39kcHsPAh -DslackWebhookUrl=https://hooks.slack.com/services/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
+#- mvn exec:java -DgiphyApiKey=$GIPHY_API_KEY -DslackWebhookUrl=$SLACK_WEBHOOK_URL
+- mvn exec:java -DgiphyApiKey=KjidbICyyiyO9Z4kpLx510L39kcHsPAh -DslackWebhookUrl=https://hooks.slack.com/services/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
 env:
   global:
    - secure: FGci5HmPk0/7/lpcRh4BYXx2HHKjU2qmki5BZNrHaAgmKU4cuvGse7n/XGkS0WAUhQPoECMRj+EuNSm30XQIf5stt5tqSl8oRztkxDaq0rUFJzcBBkqO3EcmLLAgsPYx+yFnQHi9ekOtbGYmp+lWueAPFYJCqM8+2qsFZ6vBgWaMLI/+X4A49Q+cJb4/RknxzAxtfMLMXPZ+cYB0Z1+nwlxH/heEsoKOgUx+7vtVus70cSWmcT5S1ge98RXaW7jZ91Ix1YYOmzW1w3pV+vQWKO8dT/fUp07C4zBHnTSl1RIMkYv89OpbiPZn5wVzshrABnBn0XidI9IXn9hlBYDFS/nCWUdMw0ezgSwF64tV+mceSh0JcLh0FwVt26uSUh95sxS7b6Ju4OBBMAYU78KevGlYLsTpGGbdM8p+MLVDZoLnMkZVRl+x6YBM32p7es8uGnA+kzHIgZAGeVKU2NYxrrgKx1hVY7k90tYfoFhbma3hcYcu3rLcVmG918gzYWGoWdYqiyub9u4T5/K+mwfvpNbxCNGi57SLwNOJjiEF96cAo1XgpYa7YwGTW5Pi3TvKqWkOXtuwTBh6lII7/GNhxh8XAlgx7vCLN1MGnCRKzIrWIyOXTqOVosB7SicNS9xfTH1RgBwoKgfA3afjD95ZlD9KciUxN2vFhsU4K/fxLx0=
