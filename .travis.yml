@@ -1,0 +1,7 @@
+language: java
+jdk:
+- oraclejdk8
+install: mvn install
+script:
+- export TZ=Asia/Almaty
+- mvn exec:java -DgiphyApiKey=$GIPHY_API_KEY -DslackWebhookUrl=$SLACK_WEBHOOK_URL
